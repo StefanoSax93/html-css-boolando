@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: arial;
 }
 
 .container {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -16,6 +17,9 @@
 
 header {
     background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 a {
@@ -27,7 +31,6 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    font-family: arial;
     font-weight: bold;
 }
 
@@ -37,4 +40,62 @@ header .container {
 
 i {
     padding: 0 0.3rem;
+}
+
+.padded {
+    padding: 8rem 0 3rem 0;
+}
+
+main .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    flex-basis: calc((100% - 2rem) / 3);
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.price {
+    color: red;
+    font-weight: bolder;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.writes {
+    position: absolute;
+    bottom: 7rem;
+}
+
+.box {
+    padding: 0.3rem 0.6rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.box-discount {
+    background-color: red;
+}
+
+.box-sost {
+    background-color: green;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    background-color: white;
+    padding: 0.3rem 1rem;
+    font-size: 2rem;
 }
