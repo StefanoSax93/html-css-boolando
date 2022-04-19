@@ -130,6 +130,7 @@ footer {
 
 .heart:hover {
     color: red;
+    cursor: pointer;
 }
 
 a:hover {
