@@ -63,6 +63,10 @@ main .container {
     width: 100%;
 }
 
+.ghost {
+    display: none;
+}
+
 .price {
     color: red;
     font-weight: bolder;
@@ -110,4 +114,16 @@ footer {
 
 .first-row {
     padding-bottom: 10px;
+}
+/* sezione hover */
+.card:hover .show {
+    display: none;
+}
+
+.card:hover .ghost {
+    display: initial;
+}
+
+.heart:hover {
+    color: red;
 }
