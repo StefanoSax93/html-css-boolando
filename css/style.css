@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #FF6900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 10rem;
+}
+
+i {
+    padding: 0 0.3rem;
+}
