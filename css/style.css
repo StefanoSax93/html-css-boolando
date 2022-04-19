@@ -112,6 +112,10 @@ footer {
     padding: 1rem 0;
 }
 
+.gap {
+    gap: 1rem;
+}
+
 .first-row {
     padding-bottom: 10px;
 }
@@ -126,4 +130,8 @@ footer {
 
 .heart:hover {
     color: red;
+}
+
+a:hover {
+    text-decoration: underline;
 }
